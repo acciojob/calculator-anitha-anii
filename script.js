@@ -1,5 +1,5 @@
 let output = document.getElementById('input');
-let clearButton = document.getElementById('clear');
+let clearButton = document.getElementById('clr');
 
 clearButton.addEventListener('click', function() {
   output.value ="";
@@ -18,7 +18,7 @@ for (let i = 0; i < allbuttons.length; i++) {
       } catch (error) {
         output.value = "Error";
       }
-    } else if (this.innerHTML === "clear") {
+    } else if (this.innerHTML === "clr") {
       output.value = "";
     } else {
       output.value += this.innerHTML;
