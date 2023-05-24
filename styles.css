@@ -1,2 +1,43 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    display:flex;
+	flex-direction:column;
+   justify-content: center;
+    align-items: center;
+    text-align: center;
+	margin:auto;
+}
+#buttondiv{
+	 display: grid;
+  grid-template-columns: repeat(4,70px); 
+  justify-content: center;
+	
+  gap:5px;
+}
+#input{
+	width:250px;
+	height:60px;
+	
+	font-size: 30px;
+	padding:20px;
+	margin:20px
+
+}
+button{
+	width:70px; 
+ 	height:55px;
+	
+	text-align: center;
+   font-size: 30px;
+	
+	
+}
